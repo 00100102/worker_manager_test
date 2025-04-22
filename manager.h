@@ -2,9 +2,9 @@
 #include <iostream>
 #include "worker.h"
 
-class Employee : public Worker {
+class Manager : public Worker {
 public:
-	Employee(int id, string name, int did) ;
+	Manager(int id, string name, int did);
 	virtual void showInfo();
 	virtual string getDepName();
 };
